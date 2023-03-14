@@ -25,3 +25,19 @@ x = y = z = "Maria"
 print(x)      # retorna Maria
 print(y)      # retorna Maria
 print(z)      # retorna Maria
+
+frutas = ["maçã", "banana", "cereja"]
+x, y, z = frutas
+print(x)      # retorna maçã
+print(y)      # retorna banana
+print(z)      # retorna cereja
+
+x = "O Python"
+y = "é"
+z = "fantástico"
+print(x, y, z)  # retorna O Python é fantástico
+
+x = "O Python "
+y = "é "
+z = "fantástico"
+print(x+y+z)    # retorna O Pythonéfantástico
