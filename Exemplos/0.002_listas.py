@@ -1,12 +1,8 @@
-x = "fantástico"
+vaziaLista = [ ]
+numerosLista = [1, 2, 3]
+stringsLista = ["arroz", "feijão"]
+mistaLista = ["Olá", [1, 2, 3], False]
 
-def mfuncao():
-	global x
-	x = "incrível"
-	print("O Python é" , x)
-
-
-
-print("O Python é", x) 
-
-mfuncao()
+print(numerosLista[1]) #retorna 2
+print(stringLista[0]) #retorna arroz
+print(mixedList[1][2]) #retorna 3
